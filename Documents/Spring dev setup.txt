@@ -1,0 +1,42 @@
+Installing Tomcat
+
+1) Download Tomcat: http://tomcat.apache.org
+	-- click on Tomcat version under Download Title on sideBar.
+	-- After navigating to the page,scroll down to Binary Distributions 
+	   section and click on 32-bit/64-bit Windows Service Installer Under Core
+	-- Navigate to windows explorer where exe file is saved after getting download.
+	-- Double click on installer.
+	-- Just keep on clcicking on next for keeping the default config
+	-- Now verify the installation by navigating to http://localhost:8080.
+	-- If everything is fine it should load Apache Tomcat page.
+
+2) Connecting Tomcat to eclipse
+	-- Open the eclipse and click on Servers
+	(Servers can be found where normally we find our output and stacktrace)
+	-- Click on No servers available.
+	-- In the New Server Dialog box click on Apache folder.
+	-- Select Tomcat v9.0 Server
+	-- In the new dialog box click on Browse and navigate to the place 
+	   of Tomcat download(Normally it is in c://ProgramFiles//Apache Software 
+	   Foundation)
+	-- Click on Next
+	-- Click on Finish
+	-- Now you can see Tomcat Server where once No servers Available displayed
+
+3) Create Eclipse Project
+	-- Chanege perspective to Java
+		-- Go to Window-->Perspective--->Open Perspective-->Java
+	-- Create Java Project
+	-- Download Spring Jar files
+	-- Url --> www.luv2code.com/downloadspring
+	-- Scroll down and click on latest release
+	-- Now click on  -dist.zip file 
+	-- Navigate to download folder and extract the Zip folder
+	-- Copy the jar files from lib folder.
+	-- Create one folder inside the project and name it lib and paste the jar files.
+	-- Now right click on project and click on properties.
+	-- Now Select Java Build Path
+	-- Click on Libraries .
+	-- Click on Add jars
+	-- Select all jar files under your project in dialog box.
+	-- Click on Apply and Close
